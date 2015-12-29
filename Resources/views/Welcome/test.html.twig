@@ -1,0 +1,23 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}Symfony - AJAX{% endblock %}
+
+{% block body %}
+
+<div id="articulos"></div>
+<input type="button" id="link_articulos" value ="Cargar aaarticulos" />
+
+{% endblock %}
+
+{% block javascripts %}
+<script>
+
+$("#link_articulos").click(function()
+{
+    
+        
+                alert("hola eeww");
+        });
+
+</script>
+{% endblock %}
